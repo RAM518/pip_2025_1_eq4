@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>471</width>
+    <height>437</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Reloj con Alarma</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalTopLayout">
+      <item>
+       <widget class="QLabel" name="label_superior_izquierda">
+        <property name="styleSheet">
+         <string>color: red; font-weight: bold;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="../../Archivo/recursos.qrc">:/Logos/logouat2.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <!-- Tamaño fijo para la imagen izquierda -->
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_superior_derecha">
+        <property name="styleSheet">
+         <string>color: blue; font-weight: bold; text-align: right;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="../../Archivo/recursos.qrc">:/Logos/logouat.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <!-- Tamaño fijo para la imagen derecha -->
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_reloj">
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: #2E86C1; font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>00:00:00</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QSpinBox" name="spin_horas">
+        <property name="styleSheet">
+         <string notr="true">background-color: #EAFAF1; color: #1E8449; padding: 5px; border: 1px solid #1E8449; border-radius: 5px;</string>
+        </property>
+        <property name="minimum">
+         <number>0</number>
+        </property>
+        <property name="maximum">
+         <number>23</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="spin_minutos">
+        <property name="styleSheet">
+         <string notr="true">background-color: #EAFAF1; color: #1E8449; padding: 5px; border: 1px solid #1E8449; border-radius: 5px;</string>
+        </property>
+        <property name="minimum">
+         <number>0</number>
+        </property>
+        <property name="maximum">
+         <number>59</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QSpinBox" name="spin_segundos">
+        <property name="styleSheet">
+         <string notr="true">background-color: #EAFAF1; color: #1E8449; padding: 5px; border: 1px solid #1E8449; border-radius: 5px;</string>
+        </property>
+        <property name="minimum">
+         <number>0</number>
+        </property>
+        <property name="maximum">
+         <number>59</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="boton_set_alarma">
+      <property name="styleSheet">
+       <string notr="true">background-color: #2E86C1; color: white; padding: 10px; border-radius: 10px; font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Establecer Alarma</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_alarma">
+      <property name="styleSheet">
+       <string notr="true">font-size: 14px; color: #1E8449; font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Alarma no establecida</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../Archivo/recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>

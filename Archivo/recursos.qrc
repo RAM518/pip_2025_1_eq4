@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="Logos">
+    <file>logouat2.jpg</file>
+    <file>logouat.jpg</file>
+    <file>leo.jpg</file>
+    <file>volvemosacasa.png</file>
+  </qresource>
+  <qresource prefix="Ejercicios">
+    <file>bus.jpg</file>
+    <file>leoyzell.jpg</file>
+    <file>silla.jpg</file>
+    <file>ardillas.jpg</file>
+    <file>cerru.jpg</file>
+    <file>logouat2.jpg</file>
+    <file>logouat.jpg</file>
+    <file>gatoinplorandoayuda.jpg</file>
+  </qresource>
+</RCC>

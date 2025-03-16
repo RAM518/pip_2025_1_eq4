@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="Logos">
+    <file>epic_t1fondo.jpg</file>
+    <file>fondo_t1.png</file>
+    <file>ingenierialogo.jpg</file>
+    <file>leo.jpg</file>
+    <file>leoyzell.jpg</file>
+    <file>skt.png</file>
+    <file>t1new_fondo.jpg</file>
+    <file>uatlogo.png</file>
+    <file>ultraTlogo.jpg</file>
+    <file>veige_t1fondo.jpg</file>
+    <file>volvemosacasa.png</file>
+    <file>yanise_fondo.jpeg</file>
+    <file>faker.png</file>
+  </qresource>
+  <qresource prefix="chavos">
+    <file>ardillas.jpg</file>
+    <file>bici.jpg</file>
+    <file>cerru.jpg</file>
+    <file>gatoinplorandoayuda.jpg</file>
+    <file>leo.jpg</file>
+    <file>leoyzell.jpg</file>
+    <file>volvemosacasa.png</file>
+  </qresource>
+</RCC>
