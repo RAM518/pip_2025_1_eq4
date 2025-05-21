@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Piedra, Papel, Tijeras</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayoutMain">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayoutTop">
+      <item>
+       <widget class="QLabel" name="label_izquierda">
+        <property name="styleSheet">
+         <string notr="true">font-size: 14px; font-weight: bold; color: #2E86C1;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="../../Archivo/recursos.qrc">:/Logos/logouat2.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading</set>
+        </property>
+        <!-- Tamaño fijo para la imagen izquierda -->
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_derecha">
+        <property name="styleSheet">
+         <string notr="true">font-size: 14px; font-weight: bold; color: #2E86C1;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="../../Archivo/recursos.qrc">:/Logos/logouat.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight</set>
+        </property>
+        <!-- Tamaño fijo para la imagen derecha -->
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font-size: 18px; font-weight: bold; color: #2E86C1;</string>
+      </property>
+      <property name="text">
+       <string>Elige una opción:</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="boton_piedra">
+      <property name="styleSheet">
+       <string notr="true">background-color: #2E86C1; color: white; padding: 15px; border-radius: 10px; font-size: 14px; font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Piedra</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="boton_papel">
+      <property name="styleSheet">
+       <string notr="true">background-color: #1E8449; color: white; padding: 15px; border-radius: 10px; font-size: 14px; font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Papel</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="boton_tijeras">
+      <property name="styleSheet">
+       <string notr="true">background-color: #D35400; color: white; padding: 15px; border-radius: 10px; font-size: 14px; font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string>Tijeras</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_resultado">
+      <property name="styleSheet">
+       <string notr="true">font-size: 16px; color: #2E86C1; font-weight: bold;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../Archivo/recursos.qrc"/>
+ </resources>
+ <connections/>
+</ui>
